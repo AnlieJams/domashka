@@ -1,6 +1,6 @@
-﻿#include <string>
+#include <string>
 #include <iostream>
-#include "windows.h"
+
 
 
 using namespace std;
@@ -231,7 +231,7 @@ int main()
     }
 
     else if (Months == 11 && Days >= 1 && Days <= 30) {
-        cout << "Data is correct \n";
+        cout << "Дата корректор \n";
         if (Days == 30) {
             cout << "01.12." << Years << "\n \n";
         }
